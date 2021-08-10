@@ -6,7 +6,8 @@
   "scripts": {
     "run": "node -r ts-node/register src/index.ts",
     "dev": "nodemon --config nodemon.json src/index.ts",
-    "dev:debug": "nodemon --config nodemon.json --inspect-brk src/index.ts"
+    "dev:debug": "nodemon --config nodemon.json --inspect-brk src/index.ts",
+    "tsc": "tsc"
   },
   "devDependencies": {
     "@types/node": "^14.11.2",
